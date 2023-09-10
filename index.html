@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+       body{
+        font-family: 'Orbitron', sans-serif;
+       }
+    </style>
+</head>
+
+<body id="body" class="bg-black h-screen  ">
+
+    <div id="container" class="flex flex-col">
+        <div class=" m-3 inline-flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50"
+            style="fill:#FFFFFF;">
+            <path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"></path>
+            </svg>
+
+            <span id="data" class="text-white m-4"></span>
+
+        </div>
+      
+        <div class=" text-8xl absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+
+            <span id="horas" class="text-white  "></span>
+        </div>
+            
+
+    </div>
+
+
+
+
+
+</body>
+
+<script src="main.js"></script> 
+
+</html>
